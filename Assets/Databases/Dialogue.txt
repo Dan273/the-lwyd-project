@@ -1,0 +1,7 @@
+"W-what was that? Hello?! Who's there?" \n (Everyone has left. Is someone still here?)
+"Who's there? Mass has finished. You're not meant to be here!" \n (I'd better investigate the organ.)
+"What's that music? It's getting closer..." \n (I should do what the note said.)
+(I'm not staying here any longer. I didn't lock the main doors. I should leave there.)
+(It won't open?! That's not possible! I need to try the side door. I hope Father Jones didn't lock it.)
+(This must be for the side door that was mentioned... Is that music I hear? I'd better stay quiet.)
+(It's locked, there must be a key around here somewhere...)
