@@ -136,6 +136,12 @@ public class Inventory : MonoBehaviour
         //Grab the item we found
         Item item = itemTransform.GetComponent<Item>();
 
+        if (item == null)
+        {
+            Debug.LogError("Item not found on " + itemTransform.name);
+            return;
+        }
+
         //Handle Trigger event
         if (item.type == ItemType.MusicNote)
         {

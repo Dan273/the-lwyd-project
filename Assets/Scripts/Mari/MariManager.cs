@@ -10,6 +10,8 @@ public class MariManager : MonoBehaviour
     private Transform theMari;
 
     private int deaths;
+
+    [SerializeField] Transform waypointsParent;
     #endregion
 
     #region Public
@@ -29,8 +31,7 @@ public class MariManager : MonoBehaviour
     {
         instance = this;
 
-        Transform wayPointTrans = GameObject.Find("Waypoints").transform;
-        foreach (Transform item in wayPointTrans)
+        foreach (Transform item in waypointsParent)
         {
             wayPoints.Add(item);
         }

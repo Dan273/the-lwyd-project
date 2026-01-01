@@ -126,7 +126,7 @@ public class OrganHandler : MonoBehaviour
     {
         //Create the audiosource for the new note
         GameObject newKey = new GameObject(notes[note].noteName.ToString());
-        newKey.AddComponent<AudioSource>().spatialBlend = 1;
+        newKey.AddComponent<AudioSource>().spatialBlend = .5f;
 
         //Set the variables for the note playing and the play
         notes[note].audioSource = newKey.GetComponent<AudioSource>();
